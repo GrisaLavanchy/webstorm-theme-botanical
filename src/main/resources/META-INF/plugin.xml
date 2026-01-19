@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>com.github.saral.botanical-theme</id>
+    <name>Botanical Theme</name>
+    <vendor>saral</vendor>
+    <description><![CDATA[
+    A botanical-inspired dark theme for WebStorm and other JetBrains IDEs.
+    Features earthy greens, warm browns, and natural tones for a calming coding experience.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.github.saral.botanical-theme" path="/themes/botanical.theme.json"/>
+    </extensions>
+</idea-plugin>
